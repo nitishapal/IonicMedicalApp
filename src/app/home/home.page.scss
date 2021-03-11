@@ -1,0 +1,52 @@
+.headerClass{
+    --background: linear-gradient(to right, #59aef0, #2f9aed, #1e7dc7) !important;
+    color: white;
+    height: 75px;
+}
+.marginClass{
+    margin-top: 30px;
+}
+.searchBar{
+    padding: 20px;
+}
+.onlineDoctor{
+    padding-left: 20px;
+}
+.imageClass{
+    border-radius: 50%;
+    height: 78px;
+}
+.doctorname{
+    font-size: 10px;
+    text-align: center;
+}
+.cardImage{
+    border-radius: 20%;
+    height: 78px;
+}
+.cardName{
+    color: black;
+}
+.doctorType{
+    position: absolute;
+    margin-top: 16px;
+}
+.ratingClass{
+    position: absolute;
+    right: 2%;
+}
+.star{
+    color: orange;
+    font-size: 15px;
+}
+.cost{
+    margin-top: 40px;
+    color: #1e7dc7;
+}
+.bookButton{
+    margin-top: 30px;
+    text-transform: none;
+}
+.starImage{
+    height: 16px;
+}

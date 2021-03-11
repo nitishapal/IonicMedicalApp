@@ -1,0 +1,38 @@
+.headerClass{
+    --background: linear-gradient(to right, #59aef0, #2f9aed, #1e7dc7) !important;
+    color: white;
+    height: 75px;
+}
+.marginClass{
+    margin-top: 30px;
+}
+.cardName{
+    color: black;
+}
+.doctorType{
+    position: absolute;
+    margin-top: 30px;
+    color: gray
+}
+.editButton{
+    position: absolute;
+    margin-top: 60px; 
+    text-transform: none;
+}
+.gridBorder{
+    border-bottom: 0.1px solid gray;
+}
+.textcenter{
+    border-bottom: 0.1px solid gray;
+    text-align: center;
+}
+.textOpcaity{
+    opacity: 0.5;
+}
+.marginTop{
+    margin-top: auto;
+}
+.gridImage{
+    height: 126px;
+    border-radius: 10%;
+}

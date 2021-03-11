@@ -9,6 +9,10 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { SMS } from '@ionic-native/sms/ngx';
+import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/contacts/ngx';
+import { CallNumber } from '@ionic-native/call-number/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -16,6 +20,9 @@ import { AppComponent } from './app.component';
   providers: [
     StatusBar,
     SplashScreen,
+    SMS,
+    Contacts,
+    CallNumber,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
